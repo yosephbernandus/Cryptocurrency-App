@@ -19,7 +19,7 @@ import mobile.android.cryptocurrencyapp.domain.model.Coin
 
 @Composable
 fun CoinListItem(
-    coin: Coin
+    coin: Coin,
     onItemClick: (Coin) -> Unit
 ) {
     Row(
